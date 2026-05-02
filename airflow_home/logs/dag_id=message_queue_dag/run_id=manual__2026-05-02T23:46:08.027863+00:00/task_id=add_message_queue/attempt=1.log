@@ -1,0 +1,131 @@
+[2026-05-02T23:46:12.421+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-02T23:46:12.429+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: message_queue_dag.add_message_queue manual__2026-05-02T23:46:08.027863+00:00 [queued]>
+[2026-05-02T23:46:12.433+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: message_queue_dag.add_message_queue manual__2026-05-02T23:46:08.027863+00:00 [queued]>
+[2026-05-02T23:46:12.433+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2026-05-02T23:46:12.447+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): add_message_queue> on 2026-05-02 23:46:08.027863+00:00
+[2026-05-02T23:46:12.452+0000] {standard_task_runner.py:72} INFO - Started process 41865 to run task
+[2026-05-02T23:46:12.456+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'message_queue_dag', 'add_message_queue', 'manual__2026-05-02T23:46:08.027863+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/message_queue_dag.py', '--cfg-path', '/tmp/tmpj03yaeeo']
+[2026-05-02T23:46:12.457+0000] {standard_task_runner.py:105} INFO - Job 39: Subtask add_message_queue
+[2026-05-02T23:46:12.488+0000] {task_command.py:467} INFO - Running <TaskInstance: message_queue_dag.add_message_queue manual__2026-05-02T23:46:08.027863+00:00 [running]> on host ip-172-31-40-23.ec2.internal
+[2026-05-02T23:46:12.549+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='message_queue_dag' AIRFLOW_CTX_TASK_ID='add_message_queue' AIRFLOW_CTX_EXECUTION_DATE='2026-05-02T23:46:08.027863+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-02T23:46:08.027863+00:00'
+[2026-05-02T23:46:12.550+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-02T23:46:12.622+0000] {logging_mixin.py:190} INFO - Sent 204
+[2026-05-02T23:46:12.633+0000] {logging_mixin.py:190} INFO - Sent 70
+[2026-05-02T23:46:12.641+0000] {logging_mixin.py:190} INFO - Sent 131
+[2026-05-02T23:46:12.647+0000] {logging_mixin.py:190} INFO - Sent 431
+[2026-05-02T23:46:12.655+0000] {logging_mixin.py:190} INFO - Sent 540
+[2026-05-02T23:46:12.671+0000] {logging_mixin.py:190} INFO - Sent 567
+[2026-05-02T23:46:12.679+0000] {logging_mixin.py:190} INFO - Sent 369
+[2026-05-02T23:46:12.685+0000] {logging_mixin.py:190} INFO - Sent 29
+[2026-05-02T23:46:12.697+0000] {logging_mixin.py:190} INFO - Sent 81
+[2026-05-02T23:46:12.705+0000] {logging_mixin.py:190} INFO - Sent 477
+[2026-05-02T23:46:12.711+0000] {logging_mixin.py:190} INFO - Sent 457
+[2026-05-02T23:46:12.719+0000] {logging_mixin.py:190} INFO - Sent 167
+[2026-05-02T23:46:12.725+0000] {logging_mixin.py:190} INFO - Sent 165
+[2026-05-02T23:46:12.733+0000] {logging_mixin.py:190} INFO - Sent 329
+[2026-05-02T23:46:12.739+0000] {logging_mixin.py:190} INFO - Sent 527
+[2026-05-02T23:46:12.746+0000] {logging_mixin.py:190} INFO - Sent 83
+[2026-05-02T23:46:12.753+0000] {logging_mixin.py:190} INFO - Sent 511
+[2026-05-02T23:46:12.760+0000] {logging_mixin.py:190} INFO - Sent 556
+[2026-05-02T23:46:12.766+0000] {logging_mixin.py:190} INFO - Sent 101
+[2026-05-02T23:46:12.773+0000] {logging_mixin.py:190} INFO - Sent 535
+[2026-05-02T23:46:12.779+0000] {logging_mixin.py:190} INFO - Sent 73
+[2026-05-02T23:46:12.785+0000] {logging_mixin.py:190} INFO - Sent 394
+[2026-05-02T23:46:12.792+0000] {logging_mixin.py:190} INFO - Sent 393
+[2026-05-02T23:46:12.806+0000] {logging_mixin.py:190} INFO - Sent 425
+[2026-05-02T23:46:12.814+0000] {logging_mixin.py:190} INFO - Sent 305
+[2026-05-02T23:46:12.820+0000] {logging_mixin.py:190} INFO - Sent 76
+[2026-05-02T23:46:12.827+0000] {logging_mixin.py:190} INFO - Sent 384
+[2026-05-02T23:46:12.841+0000] {logging_mixin.py:190} INFO - Sent 555
+[2026-05-02T23:46:12.847+0000] {logging_mixin.py:190} INFO - Sent 362
+[2026-05-02T23:46:12.854+0000] {logging_mixin.py:190} INFO - Sent 72
+[2026-05-02T23:46:12.862+0000] {logging_mixin.py:190} INFO - Sent 551
+[2026-05-02T23:46:12.869+0000] {logging_mixin.py:190} INFO - Sent 158
+[2026-05-02T23:46:12.876+0000] {logging_mixin.py:190} INFO - Sent 424
+[2026-05-02T23:46:12.884+0000] {logging_mixin.py:190} INFO - Sent 532
+[2026-05-02T23:46:12.890+0000] {logging_mixin.py:190} INFO - Sent 222
+[2026-05-02T23:46:12.897+0000] {logging_mixin.py:190} INFO - Sent 55
+[2026-05-02T23:46:12.904+0000] {logging_mixin.py:190} INFO - Sent 10
+[2026-05-02T23:46:12.911+0000] {logging_mixin.py:190} INFO - Sent 281
+[2026-05-02T23:46:12.918+0000] {logging_mixin.py:190} INFO - Sent 6
+[2026-05-02T23:46:12.924+0000] {logging_mixin.py:190} INFO - Sent 90
+[2026-05-02T23:46:12.931+0000] {logging_mixin.py:190} INFO - Sent 104
+[2026-05-02T23:46:12.939+0000] {logging_mixin.py:190} INFO - Sent 353
+[2026-05-02T23:46:12.946+0000] {logging_mixin.py:190} INFO - Sent 422
+[2026-05-02T23:46:12.953+0000] {logging_mixin.py:190} INFO - Sent 211
+[2026-05-02T23:46:12.960+0000] {logging_mixin.py:190} INFO - Sent 275
+[2026-05-02T23:46:12.970+0000] {logging_mixin.py:190} INFO - Sent 109
+[2026-05-02T23:46:12.977+0000] {logging_mixin.py:190} INFO - Sent 520
+[2026-05-02T23:46:12.983+0000] {logging_mixin.py:190} INFO - Sent 557
+[2026-05-02T23:46:12.991+0000] {logging_mixin.py:190} INFO - Sent 531
+[2026-05-02T23:46:13.000+0000] {logging_mixin.py:190} INFO - Sent 284
+[2026-05-02T23:46:13.023+0000] {logging_mixin.py:190} INFO - Sent 264
+[2026-05-02T23:46:13.029+0000] {logging_mixin.py:190} INFO - Sent 30
+[2026-05-02T23:46:13.037+0000] {logging_mixin.py:190} INFO - Sent 208
+[2026-05-02T23:46:13.043+0000] {logging_mixin.py:190} INFO - Sent 528
+[2026-05-02T23:46:13.050+0000] {logging_mixin.py:190} INFO - Sent 145
+[2026-05-02T23:46:13.057+0000] {logging_mixin.py:190} INFO - Sent 464
+[2026-05-02T23:46:13.063+0000] {logging_mixin.py:190} INFO - Sent 320
+[2026-05-02T23:46:13.071+0000] {logging_mixin.py:190} INFO - Sent 82
+[2026-05-02T23:46:13.089+0000] {logging_mixin.py:190} INFO - Sent 39
+[2026-05-02T23:46:13.122+0000] {logging_mixin.py:190} INFO - Sent 271
+[2026-05-02T23:46:13.129+0000] {logging_mixin.py:190} INFO - Sent 79
+[2026-05-02T23:46:13.137+0000] {logging_mixin.py:190} INFO - Sent 2
+[2026-05-02T23:46:13.147+0000] {logging_mixin.py:190} INFO - Sent 564
+[2026-05-02T23:46:13.158+0000] {logging_mixin.py:190} INFO - Sent 462
+[2026-05-02T23:46:13.165+0000] {logging_mixin.py:190} INFO - Sent 334
+[2026-05-02T23:46:13.171+0000] {logging_mixin.py:190} INFO - Sent 228
+[2026-05-02T23:46:13.178+0000] {logging_mixin.py:190} INFO - Sent 118
+[2026-05-02T23:46:13.185+0000] {logging_mixin.py:190} INFO - Sent 78
+[2026-05-02T23:46:13.191+0000] {logging_mixin.py:190} INFO - Sent 188
+[2026-05-02T23:46:13.198+0000] {logging_mixin.py:190} INFO - Sent 331
+[2026-05-02T23:46:13.205+0000] {logging_mixin.py:190} INFO - Sent 196
+[2026-05-02T23:46:13.211+0000] {logging_mixin.py:190} INFO - Sent 11
+[2026-05-02T23:46:13.217+0000] {logging_mixin.py:190} INFO - Sent 395
+[2026-05-02T23:46:13.224+0000] {logging_mixin.py:190} INFO - Sent 177
+[2026-05-02T23:46:13.231+0000] {logging_mixin.py:190} INFO - Sent 538
+[2026-05-02T23:46:13.237+0000] {logging_mixin.py:190} INFO - Sent 482
+[2026-05-02T23:46:13.245+0000] {logging_mixin.py:190} INFO - Sent 235
+[2026-05-02T23:46:13.252+0000] {logging_mixin.py:190} INFO - Sent 255
+[2026-05-02T23:46:13.292+0000] {logging_mixin.py:190} INFO - Sent 144
+[2026-05-02T23:46:13.312+0000] {logging_mixin.py:190} INFO - Sent 380
+[2026-05-02T23:46:13.355+0000] {logging_mixin.py:190} INFO - Sent 132
+[2026-05-02T23:46:13.366+0000] {logging_mixin.py:190} INFO - Sent 333
+[2026-05-02T23:46:13.373+0000] {logging_mixin.py:190} INFO - Sent 86
+[2026-05-02T23:46:13.380+0000] {logging_mixin.py:190} INFO - Sent 250
+[2026-05-02T23:46:13.388+0000] {logging_mixin.py:190} INFO - Sent 274
+[2026-05-02T23:46:13.395+0000] {logging_mixin.py:190} INFO - Sent 257
+[2026-05-02T23:46:13.401+0000] {logging_mixin.py:190} INFO - Sent 9
+[2026-05-02T23:46:13.408+0000] {logging_mixin.py:190} INFO - Sent 468
+[2026-05-02T23:46:13.415+0000] {logging_mixin.py:190} INFO - Sent 382
+[2026-05-02T23:46:13.422+0000] {logging_mixin.py:190} INFO - Sent 322
+[2026-05-02T23:46:13.431+0000] {logging_mixin.py:190} INFO - Sent 84
+[2026-05-02T23:46:13.438+0000] {logging_mixin.py:190} INFO - Sent 526
+[2026-05-02T23:46:13.445+0000] {logging_mixin.py:190} INFO - Sent 500
+[2026-05-02T23:46:13.452+0000] {logging_mixin.py:190} INFO - Sent 561
+[2026-05-02T23:46:13.459+0000] {logging_mixin.py:190} INFO - Sent 332
+[2026-05-02T23:46:13.465+0000] {logging_mixin.py:190} INFO - Sent 110
+[2026-05-02T23:46:13.472+0000] {logging_mixin.py:190} INFO - Sent 565
+[2026-05-02T23:46:13.478+0000] {logging_mixin.py:190} INFO - Sent 203
+[2026-05-02T23:46:13.484+0000] {logging_mixin.py:190} INFO - Sent 153
+[2026-05-02T23:46:13.491+0000] {logging_mixin.py:190} INFO - Sent 441
+[2026-05-02T23:46:13.498+0000] {logging_mixin.py:190} INFO - Sent 182
+[2026-05-02T23:46:13.504+0000] {logging_mixin.py:190} INFO - Sent 140
+[2026-05-02T23:46:13.512+0000] {logging_mixin.py:190} INFO - Sent 77
+[2026-05-02T23:46:13.518+0000] {logging_mixin.py:190} INFO - Sent 408
+[2026-05-02T23:46:13.527+0000] {logging_mixin.py:190} INFO - Sent 549
+[2026-05-02T23:46:13.534+0000] {logging_mixin.py:190} INFO - Sent 530
+[2026-05-02T23:46:13.540+0000] {logging_mixin.py:190} INFO - Sent 163
+[2026-05-02T23:46:13.548+0000] {logging_mixin.py:190} INFO - Sent 503
+[2026-05-02T23:46:13.555+0000] {logging_mixin.py:190} INFO - Sent 148
+[2026-05-02T23:46:13.562+0000] {logging_mixin.py:190} INFO - Sent 486
+[2026-05-02T23:46:13.569+0000] {logging_mixin.py:190} INFO - Sent 75
+[2026-05-02T23:46:13.575+0000] {logging_mixin.py:190} INFO - Sent 249
+[2026-05-02T23:46:13.582+0000] {logging_mixin.py:190} INFO - Sent 238
+[2026-05-02T23:46:13.589+0000] {logging_mixin.py:190} INFO - Sent 265
+[2026-05-02T23:46:13.589+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-02T23:46:13.592+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-02T23:46:13.593+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=message_queue_dag, task_id=add_message_queue, run_id=manual__2026-05-02T23:46:08.027863+00:00, execution_date=20260502T234608, start_date=20260502T234612, end_date=20260502T234613
+[2026-05-02T23:46:13.609+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-02T23:46:13.619+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-02T23:46:13.619+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

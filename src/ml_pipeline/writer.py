@@ -3,33 +3,32 @@ import time
 import uuid
 import boto3
 import argparse
-import settings
+import os
+import joblib
+import pandas as pd
+#import settings
+from sklearn.model_selection import train_test_split
+#from breast_cancer_data import load_data
 
 sqs = boto3.client("sqs")
 
 
-def generate_payload(message_num):
-    """
-    Creates roughly size_bytes of JSON payload.
-    """
-    return {"id": str(uuid.uuid4()), "payload": str(message_num)}
+def get_test_data(df, queue_url):
+    X = df.drop(columns=["target"])
+    y = df["target"]
+
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42
+    )
+
+    for index, row in X_test.iterrows():
+        row_info = {"record_id": str(index), "features": str(row)}
+        
+        sqs.send_message(QueueUrl=queue_url, MessageBody=json.dumps(row_info))
+        print(f"Sent {index}")
 
 
-def run_writer(queue_url, n, delay):
-    for i in range(n):
-        msg = generate_payload(i)
 
-        sqs.send_message(QueueUrl=queue_url, MessageBody=json.dumps(msg))
-
-        print(f"Sent {i+1}/{n}")
-        if delay > 0:
-            time.sleep(delay)
-
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--n", type=int, default=100)
-    parser.add_argument("--delay", type=float, default=0.0)
-    args = parser.parse_args()
-
-    run_writer(settings.QUEUE_URL, args.n, args.delay)
+#if __name__ == "__main__":
+    #df = load_data("data/breast_cancer.csv")
+    #get_test_data(df, settings.QUEUE_URL)
