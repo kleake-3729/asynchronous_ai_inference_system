@@ -1,0 +1,448 @@
+[2026-05-02T16:46:14.139+0000] {processor.py:186} INFO - Started process (PID=4052) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:46:14.140+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:46:14.141+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:46:14.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:46:16.954+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:46:16.973+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:46:16.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:46:16.981+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:46:16.981+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:46:16.998+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 2.863 seconds
+[2026-05-02T16:46:47.991+0000] {processor.py:186} INFO - Started process (PID=4315) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:46:47.992+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:46:47.993+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:46:47.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:46:49.336+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:46:49.348+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:46:49.348+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:46:49.357+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:46:49.357+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:46:49.374+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.387 seconds
+[2026-05-02T16:47:19.870+0000] {processor.py:186} INFO - Started process (PID=4566) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:47:19.871+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:47:19.872+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:47:19.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:47:21.228+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:47:21.240+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:47:21.240+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:47:21.249+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:47:21.249+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:47:21.266+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.401 seconds
+[2026-05-02T16:47:51.698+0000] {processor.py:186} INFO - Started process (PID=4754) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:47:51.699+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:47:51.700+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:47:51.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:47:53.122+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:47:53.134+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:47:53.134+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:47:53.143+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:47:53.143+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:47:53.162+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.468 seconds
+[2026-05-02T16:48:23.434+0000] {processor.py:186} INFO - Started process (PID=5002) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:48:23.435+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:48:23.436+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:48:23.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:48:24.897+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:48:24.909+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:48:24.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:48:24.919+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:48:24.919+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:48:24.935+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.506 seconds
+[2026-05-02T16:48:55.222+0000] {processor.py:186} INFO - Started process (PID=5238) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:48:55.223+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:48:55.224+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:48:55.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:48:56.658+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:48:56.673+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:48:56.672+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:48:56.682+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:48:56.681+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:48:56.699+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.482 seconds
+[2026-05-02T16:49:27.057+0000] {processor.py:186} INFO - Started process (PID=5439) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:49:27.057+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:49:27.058+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:49:27.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:49:28.463+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:49:28.475+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:49:28.475+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:49:28.484+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:49:28.484+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:49:28.501+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.449 seconds
+[2026-05-02T16:49:58.890+0000] {processor.py:186} INFO - Started process (PID=5627) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:49:58.891+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:49:58.892+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:49:58.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:50:00.260+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:50:00.272+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:50:00.271+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:50:00.280+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:50:00.280+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:50:00.297+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.412 seconds
+[2026-05-02T16:50:30.758+0000] {processor.py:186} INFO - Started process (PID=5882) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:50:30.759+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:50:30.760+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:50:30.759+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:50:32.148+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:50:32.161+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:50:32.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:50:32.169+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:50:32.169+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:50:32.187+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.433 seconds
+[2026-05-02T16:51:02.624+0000] {processor.py:186} INFO - Started process (PID=6090) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:51:02.624+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:51:02.625+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:51:02.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:51:04.061+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:51:04.072+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:51:04.072+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:51:04.082+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:51:04.082+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:51:04.098+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.479 seconds
+[2026-05-02T16:51:34.642+0000] {processor.py:186} INFO - Started process (PID=6322) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:51:34.644+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:51:34.645+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:51:34.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:51:35.976+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:51:35.988+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:51:35.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:51:35.997+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:51:35.997+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:51:36.015+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.377 seconds
+[2026-05-02T16:52:06.554+0000] {processor.py:186} INFO - Started process (PID=6572) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:52:06.555+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:52:06.556+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:52:06.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:52:07.919+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:52:07.932+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:52:07.932+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:52:07.940+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:52:07.940+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:52:07.957+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.408 seconds
+[2026-05-02T16:52:38.063+0000] {processor.py:186} INFO - Started process (PID=6760) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:52:38.064+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:52:38.065+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:52:38.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:52:39.317+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:52:39.329+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:52:39.329+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:52:39.338+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:52:39.338+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:52:39.354+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.296 seconds
+[2026-05-02T16:53:09.436+0000] {processor.py:186} INFO - Started process (PID=6961) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:53:09.437+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:53:09.438+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:53:09.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:53:10.664+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:53:10.676+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:53:10.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:53:10.684+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:53:10.684+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:53:10.700+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.269 seconds
+[2026-05-02T16:53:40.800+0000] {processor.py:186} INFO - Started process (PID=7156) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:53:40.801+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:53:40.802+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:53:40.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:53:42.023+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:53:42.034+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:53:42.034+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:53:42.043+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:53:42.043+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:53:42.060+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.265 seconds
+[2026-05-02T16:54:12.164+0000] {processor.py:186} INFO - Started process (PID=7418) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:54:12.165+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:54:12.166+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:54:12.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:54:13.418+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:54:13.432+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:54:13.431+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:54:13.447+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:54:13.447+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:54:13.521+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.361 seconds
+[2026-05-02T16:54:43.641+0000] {processor.py:186} INFO - Started process (PID=7610) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:54:43.642+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:54:43.643+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:54:43.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:54:44.997+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:54:45.009+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:54:45.009+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:54:45.020+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:54:45.019+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:54:45.048+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.412 seconds
+[2026-05-02T16:55:15.217+0000] {processor.py:186} INFO - Started process (PID=7835) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:55:15.218+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:55:15.220+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:55:15.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:55:16.524+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:55:16.537+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:55:16.536+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:55:16.545+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:55:16.545+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:55:16.563+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.354 seconds
+[2026-05-02T16:55:46.681+0000] {processor.py:186} INFO - Started process (PID=8031) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:55:46.683+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:55:46.684+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:55:46.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:55:47.939+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:55:47.952+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:55:47.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:55:47.960+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:55:47.960+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:55:47.976+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.300 seconds
+[2026-05-02T16:58:20.879+0000] {processor.py:186} INFO - Started process (PID=8747) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:58:20.880+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:58:20.881+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:58:20.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:58:22.308+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:58:22.321+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:58:22.321+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:58:22.329+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:58:22.329+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:58:22.345+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.471 seconds
+[2026-05-02T16:58:56.120+0000] {processor.py:186} INFO - Started process (PID=8987) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:58:56.121+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:58:56.122+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:58:56.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:58:57.470+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:58:57.482+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:58:57.482+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:58:57.491+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:58:57.491+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:58:57.507+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.392 seconds
+[2026-05-02T16:59:27.933+0000] {processor.py:186} INFO - Started process (PID=9206) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:59:27.934+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:59:27.934+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:59:27.934+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:59:29.289+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:59:29.301+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:59:29.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T16:59:29.309+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:59:29.309+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T16:59:29.326+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.397 seconds
+[2026-05-02T16:59:59.523+0000] {processor.py:186} INFO - Started process (PID=9402) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T16:59:59.524+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T16:59:59.525+0000] {logging_mixin.py:190} INFO - [2026-05-02T16:59:59.524+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:00:00.989+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:00:01.002+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:00:01.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:00:01.010+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:00:01.010+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:00:01.029+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.511 seconds
+[2026-05-02T17:00:32.011+0000] {processor.py:186} INFO - Started process (PID=9698) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:00:32.012+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:00:32.013+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:00:32.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:00:33.378+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:00:33.390+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:00:33.390+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:00:33.400+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:00:33.400+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:00:33.417+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.411 seconds
+[2026-05-02T17:01:04.519+0000] {processor.py:186} INFO - Started process (PID=9924) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:01:04.519+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:01:04.520+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:01:04.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:01:05.854+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:01:05.867+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:01:05.867+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:01:05.876+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:01:05.876+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:01:05.892+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.378 seconds
+[2026-05-02T17:01:36.256+0000] {processor.py:186} INFO - Started process (PID=10121) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:01:36.257+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:01:36.258+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:01:36.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:01:37.610+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:01:37.622+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:01:37.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:01:37.630+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:01:37.630+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:01:37.647+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.395 seconds
+[2026-05-02T17:02:07.780+0000] {processor.py:186} INFO - Started process (PID=10378) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:02:07.781+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:02:07.782+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:02:07.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:02:09.295+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:02:09.314+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:02:09.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:02:09.328+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:02:09.328+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:02:09.347+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.571 seconds
+[2026-05-02T17:02:40.282+0000] {processor.py:186} INFO - Started process (PID=10599) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:02:40.283+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:02:40.284+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:02:40.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:02:41.651+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:02:41.663+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:02:41.663+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:02:41.672+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:02:41.671+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:02:41.689+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.413 seconds
+[2026-05-02T17:03:12.671+0000] {processor.py:186} INFO - Started process (PID=10806) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:03:12.672+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:03:12.673+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:03:12.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:03:14.056+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:03:14.068+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:03:14.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:03:14.078+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:03:14.078+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:03:14.095+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.428 seconds
+[2026-05-02T17:03:44.366+0000] {processor.py:186} INFO - Started process (PID=11068) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:03:44.367+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:03:44.368+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:03:44.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:03:45.708+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:03:45.720+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:03:45.720+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:03:45.729+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:03:45.729+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:03:45.746+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.384 seconds
+[2026-05-02T17:04:16.148+0000] {processor.py:186} INFO - Started process (PID=11272) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:04:16.149+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:04:16.150+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:04:16.149+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:04:17.508+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:04:17.521+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:04:17.521+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:04:17.530+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:04:17.530+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:04:17.547+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.404 seconds
+[2026-05-02T17:04:47.757+0000] {processor.py:186} INFO - Started process (PID=11474) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:04:47.758+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:04:47.759+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:04:47.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:04:49.126+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:04:49.143+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:04:49.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:04:49.156+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:04:49.156+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:04:49.173+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.421 seconds
+[2026-05-02T17:05:19.304+0000] {processor.py:186} INFO - Started process (PID=11730) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:05:19.305+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:05:19.306+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:05:19.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:05:20.753+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:05:20.766+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:05:20.765+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:05:20.775+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:05:20.774+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:05:20.792+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.493 seconds
+[2026-05-02T17:05:51.218+0000] {processor.py:186} INFO - Started process (PID=11961) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:05:51.219+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:05:51.220+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:05:51.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:05:52.552+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:05:52.565+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:05:52.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:05:52.574+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:05:52.574+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:05:52.593+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.381 seconds
+[2026-05-02T17:06:23.120+0000] {processor.py:186} INFO - Started process (PID=12177) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:06:23.121+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:06:23.122+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:06:23.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:06:24.454+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:06:24.467+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:06:24.467+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:06:24.477+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:06:24.477+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:06:24.495+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.380 seconds
+[2026-05-02T17:06:54.598+0000] {processor.py:186} INFO - Started process (PID=12376) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:06:54.599+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:06:54.600+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:06:54.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:06:55.909+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:06:55.921+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:06:55.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:06:55.931+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:06:55.931+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:06:55.948+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.355 seconds
+[2026-05-02T17:07:26.084+0000] {processor.py:186} INFO - Started process (PID=12638) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:07:26.085+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:07:26.086+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:07:26.086+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:07:27.958+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:07:27.977+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:07:27.977+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:07:27.992+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:07:27.991+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:07:28.026+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.949 seconds
+[2026-05-02T17:07:58.180+0000] {processor.py:186} INFO - Started process (PID=12894) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:07:58.180+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:07:58.182+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:07:58.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:08:00.248+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:08:00.262+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:08:00.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:08:00.271+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:08:00.271+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:08:00.289+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 2.116 seconds
+[2026-05-02T17:08:30.457+0000] {processor.py:186} INFO - Started process (PID=13147) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:08:30.459+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:08:30.460+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:08:30.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:08:31.813+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:08:31.826+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:08:31.826+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:08:31.835+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:08:31.835+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:08:31.854+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.402 seconds
+[2026-05-02T17:09:02.025+0000] {processor.py:186} INFO - Started process (PID=13362) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:09:02.026+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:09:02.027+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:09:02.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:09:03.340+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:09:03.352+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:09:03.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:09:03.361+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:09:03.361+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:09:03.383+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.362 seconds
+[2026-05-02T17:09:33.494+0000] {processor.py:186} INFO - Started process (PID=13613) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:09:33.495+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:09:33.496+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:09:33.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:09:34.820+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:09:34.833+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:09:34.833+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:09:34.843+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:09:34.843+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:09:34.865+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.376 seconds
+[2026-05-02T17:10:04.969+0000] {processor.py:186} INFO - Started process (PID=13826) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:10:04.970+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:10:04.971+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:10:04.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:10:06.280+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:10:06.293+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:10:06.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:10:06.303+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:10:06.303+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:10:06.320+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.356 seconds
+[2026-05-02T17:10:36.436+0000] {processor.py:186} INFO - Started process (PID=14077) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:10:36.437+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:10:36.438+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:10:36.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:10:37.752+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:10:37.765+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:10:37.765+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:10:37.774+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:10:37.774+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:10:37.792+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.360 seconds
+[2026-05-02T17:11:07.916+0000] {processor.py:186} INFO - Started process (PID=14316) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:11:07.917+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:11:07.918+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:11:07.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:11:09.246+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:11:09.260+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:11:09.260+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:11:09.273+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:11:09.272+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:11:09.291+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.380 seconds
+[2026-05-02T17:11:39.383+0000] {processor.py:186} INFO - Started process (PID=14541) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:11:39.384+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:11:39.385+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:11:39.385+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:11:40.707+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:11:40.719+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:11:40.719+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:11:40.728+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:11:40.728+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:11:40.746+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.367 seconds
+[2026-05-02T17:12:10.832+0000] {processor.py:186} INFO - Started process (PID=14794) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:12:10.833+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:12:10.834+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:12:10.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:12:12.257+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:12:12.272+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:12:12.271+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:12:12.284+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:12:12.284+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:12:12.309+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.482 seconds
+[2026-05-02T17:12:42.386+0000] {processor.py:186} INFO - Started process (PID=14987) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:12:42.386+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:12:42.387+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:12:42.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:12:43.823+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:12:43.835+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:12:43.834+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:12:43.845+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:12:43.845+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:12:43.863+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.482 seconds
+[2026-05-02T17:13:13.958+0000] {processor.py:186} INFO - Started process (PID=15219) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:13:13.960+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:13:13.961+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:13:13.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:13:15.302+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:13:15.315+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:13:15.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:13:15.326+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:13:15.325+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:13:15.349+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.395 seconds
+[2026-05-02T17:18:00.509+0000] {processor.py:186} INFO - Started process (PID=15803) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:18:00.510+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:18:00.511+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:18:00.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:18:01.935+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:18:01.949+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:18:01.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:18:01.958+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:18:01.958+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:18:01.976+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.471 seconds
+[2026-05-02T17:18:32.266+0000] {processor.py:186} INFO - Started process (PID=16058) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:18:32.267+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:18:32.268+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:18:32.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:18:33.680+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:18:33.693+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:18:33.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:18:33.702+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:18:33.702+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:18:33.720+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.459 seconds
+[2026-05-02T17:19:04.741+0000] {processor.py:186} INFO - Started process (PID=16312) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:19:04.742+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:19:04.743+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:04.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:19:06.261+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:19:06.274+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:06.273+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:19:06.283+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:06.282+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:19:06.302+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.565 seconds
+[2026-05-02T17:19:36.625+0000] {processor.py:186} INFO - Started process (PID=16519) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:19:36.626+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:19:36.627+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:36.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:19:38.147+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:19:38.160+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:38.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:19:38.171+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:38.171+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:19:38.189+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.568 seconds
+[2026-05-02T17:20:08.469+0000] {processor.py:186} INFO - Started process (PID=16810) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:20:08.471+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:20:08.472+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:08.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:20:09.909+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:20:09.923+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:09.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:20:09.932+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:09.932+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:20:09.951+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.488 seconds
+[2026-05-02T17:20:40.204+0000] {processor.py:186} INFO - Started process (PID=17019) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:20:40.205+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:20:40.206+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:40.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:20:41.633+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:20:41.646+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:41.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:20:41.654+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:41.654+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:20:41.672+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.473 seconds
+[2026-05-02T17:21:11.938+0000] {processor.py:186} INFO - Started process (PID=17228) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:21:11.939+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:21:11.940+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:11.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:21:13.354+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:21:13.367+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:13.366+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:21:13.376+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:13.375+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:21:13.395+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.462 seconds
+[2026-05-02T17:21:43.671+0000] {processor.py:186} INFO - Started process (PID=17425) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:21:43.672+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:21:43.673+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:43.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:21:45.091+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:21:45.104+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:45.104+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:21:45.114+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:45.114+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:21:45.132+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.466 seconds
+[2026-05-02T17:22:15.405+0000] {processor.py:186} INFO - Started process (PID=17681) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:22:15.406+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:22:15.407+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:15.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:22:16.820+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:22:16.835+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:16.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:22:16.844+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:16.844+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:22:16.864+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.463 seconds
+[2026-05-02T17:22:47.166+0000] {processor.py:186} INFO - Started process (PID=17876) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:22:47.167+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:22:47.169+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:47.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:22:48.610+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:22:48.623+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:48.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:22:48.632+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:48.631+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:22:48.649+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.488 seconds
+[2026-05-02T17:23:18.913+0000] {processor.py:186} INFO - Started process (PID=18113) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:23:18.914+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:23:18.915+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:18.915+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:23:20.253+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:23:20.265+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:20.265+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:23:20.274+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:20.274+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:23:20.293+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.386 seconds
+[2026-05-02T17:23:51.900+0000] {processor.py:186} INFO - Started process (PID=18318) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:23:51.902+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:23:51.903+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:51.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:23:53.213+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:23:53.226+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:53.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:23:53.236+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:53.236+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:23:53.253+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.358 seconds
+[2026-05-02T17:24:23.380+0000] {processor.py:186} INFO - Started process (PID=18592) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:24:23.382+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:24:23.383+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:23.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:24:24.698+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:24:24.712+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:24.712+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:24:24.721+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:24.721+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:24:24.739+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.364 seconds
+[2026-05-02T17:24:54.849+0000] {processor.py:186} INFO - Started process (PID=18794) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:24:54.849+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:24:54.850+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:54.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:24:56.162+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:24:56.174+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:56.174+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:24:56.183+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:56.183+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:24:56.201+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.357 seconds
+[2026-05-02T17:25:27.332+0000] {processor.py:186} INFO - Started process (PID=19001) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:25:27.333+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:25:27.334+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:25:27.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:25:28.772+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:25:28.785+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:25:28.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:25:28.794+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:25:28.794+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:25:28.812+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.485 seconds
+[2026-05-02T17:25:59.034+0000] {processor.py:186} INFO - Started process (PID=19221) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:25:59.035+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py for tasks to queue
+[2026-05-02T17:25:59.036+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:25:59.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:26:00.362+0000] {processor.py:925} INFO - DAG(s) 'train_model_only' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py
+[2026-05-02T17:26:00.374+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:26:00.374+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:26:00.385+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:26:00.385+0000] {dag.py:4180} INFO - Setting next_dagrun for train_model_only to None, run_after=None
+[2026-05-02T17:26:00.403+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py took 1.374 seconds

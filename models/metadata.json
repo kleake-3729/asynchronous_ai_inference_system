@@ -4,5 +4,23 @@
         "dataset": "data/breast_cancer.csv",
         "model_type": "logistic_regression",
         "accuracy": 0.956140350877193
+    },
+    {
+        "model_version": "manual__2026-05-02T16:50:57.732225+00:00",
+        "dataset": "data/breast_cancer.csv",
+        "model_type": "logistic_regression",
+        "accuracy": 0.956140350877193
+    },
+    {
+        "model_version": "manual__2026-05-02T16:58:47.993141+00:00",
+        "dataset": "data/breast_cancer.csv",
+        "model_type": "logistic_regression",
+        "accuracy": 0.956140350877193
+    },
+    {
+        "model_version": "manual__2026-05-02T17:18:33.760327+00:00",
+        "dataset": "data/breast_cancer.csv",
+        "model_type": "logistic_regression",
+        "accuracy": 0.956140350877193
     }
 ]

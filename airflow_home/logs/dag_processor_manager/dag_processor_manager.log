@@ -451,3 +451,750 @@ File Path                                                                       
 /home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.41s           2026-04-30T00:34:05                      10
 ================================================================================
 [2026-04-30T00:34:48.550+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-05-02T16:46:14.082+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-05-02T16:46:14.083+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-05-02T16:46:14.083+0000] {manager.py:485} INFO - Checking for new files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags every 300 seconds
+[2026-05-02T16:46:14.083+0000] {manager.py:821} INFO - Searching for files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T16:46:14.090+0000] {manager.py:824} INFO - There are 4 files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T16:46:17.038+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  2.91s           2026-05-02T16:46:17                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 0           0                                                            0
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           0                                                            0
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           0           0                                                            0
+================================================================================
+[2026-05-02T16:46:49.387+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T16:46:19                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.51s           2026-05-02T16:46:22                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T16:46:49                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T16:46:24                      10
+================================================================================
+[2026-05-02T16:47:21.366+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T16:46:51                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T16:47:21                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.51s           2026-05-02T16:46:54                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T16:46:56                      10
+================================================================================
+[2026-05-02T16:47:53.202+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T16:47:23                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T16:47:53                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.51s           2026-05-02T16:47:25                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.51s           2026-05-02T16:47:27                      10
+================================================================================
+[2026-05-02T16:48:25.031+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.61s           2026-05-02T16:48:25                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.51s           2026-05-02T16:47:59                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T16:47:55                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.41s           2026-05-02T16:47:57                      10
+================================================================================
+[2026-05-02T16:48:56.718+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.61s           2026-05-02T16:48:29                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T16:48:56                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T16:48:26                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T16:48:31                      10
+================================================================================
+[2026-05-02T16:49:28.554+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T16:48:58                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.61s           2026-05-02T16:49:01                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T16:49:28                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.51s           2026-05-02T16:49:03                      10
+================================================================================
+[2026-05-02T16:50:00.386+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T16:49:30                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.51s           2026-05-02T16:49:32                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T16:50:00                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.42s           2026-05-02T16:49:35                      10
+================================================================================
+[2026-05-02T16:50:32.255+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.62s           2026-05-02T16:50:02                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.51s           2026-05-02T16:50:04                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T16:50:32                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T16:50:06                      10
+================================================================================
+[2026-05-02T16:51:04.120+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.81s           2026-05-02T16:50:34                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T16:51:04                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T16:50:39                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.41s           2026-05-02T16:50:36                      10
+================================================================================
+[2026-05-02T16:51:16.143+0000] {manager.py:821} INFO - Searching for files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T16:51:16.145+0000] {manager.py:824} INFO - There are 4 files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T16:51:36.039+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T16:51:09                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.61s           2026-05-02T16:51:15                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T16:51:36                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T16:51:17                      10
+================================================================================
+[2026-05-02T16:52:08.051+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T16:52:08                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T16:51:41                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.41s           2026-05-02T16:51:47                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T16:51:49                      10
+================================================================================
+[2026-05-02T16:52:39.367+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T16:52:20                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.41s           2026-05-02T16:52:13                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.41s           2026-05-02T16:52:18                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.31s           2026-05-02T16:52:39                      10
+================================================================================
+[2026-05-02T16:53:10.732+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.41s           2026-05-02T16:52:45                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T16:52:52                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.31s           2026-05-02T16:52:50                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.31s           2026-05-02T16:53:10                      10
+================================================================================
+[2026-05-02T16:53:42.095+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T16:53:17                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.31s           2026-05-02T16:53:22                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.31s           2026-05-02T16:53:42                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.31s           2026-05-02T16:53:23                      10
+================================================================================
+[2026-05-02T16:54:13.561+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.41s           2026-05-02T16:53:49                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T16:54:13                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.41s           2026-05-02T16:53:53                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.31s           2026-05-02T16:53:55                      10
+================================================================================
+[2026-05-02T16:54:45.137+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T16:54:45                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.41s           2026-05-02T16:54:21                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.41s           2026-05-02T16:54:25                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.31s           2026-05-02T16:54:27                      10
+================================================================================
+[2026-05-02T16:55:16.609+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T16:55:16                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.41s           2026-05-02T16:54:53                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.41s           2026-05-02T16:54:56                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.31s           2026-05-02T16:54:59                      10
+================================================================================
+[2026-05-02T16:55:48.077+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.51s           2026-05-02T16:55:30                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T16:55:48                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   1           0  1.41s           2026-05-02T16:55:28                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.41s           2026-05-02T16:55:24                      10
+================================================================================
+[2026-05-02T16:56:16.076+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-05-02T16:58:20.828+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-05-02T16:58:20.829+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-05-02T16:58:20.829+0000] {manager.py:485} INFO - Checking for new files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags every 300 seconds
+[2026-05-02T16:58:20.829+0000] {manager.py:821} INFO - Searching for files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T16:58:20.831+0000] {manager.py:824} INFO - There are 4 files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T16:58:22.389+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.52s           2026-05-02T16:58:22                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 0           0                                                            0
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           0                                                            0
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           0           0                                                            0
+================================================================================
+[2026-05-02T16:58:57.519+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T16:58:24                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.51s           2026-05-02T16:58:28                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T16:58:57                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T16:58:25                       3
+================================================================================
+[2026-05-02T16:59:29.338+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T16:59:03                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T16:59:29                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T16:59:06                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T16:59:04                       5
+================================================================================
+[2026-05-02T17:00:01.119+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.61s           2026-05-02T17:00:01                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T16:59:34                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T16:59:38                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T16:59:35                       5
+================================================================================
+[2026-05-02T17:00:33.508+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.91s           2026-05-02T17:00:06                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T17:00:33                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:00:09                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:00:07                       5
+================================================================================
+[2026-05-02T17:01:05.915+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:00:38                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:00:41                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:01:05                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:00:39                       5
+================================================================================
+[2026-05-02T17:01:37.659+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T17:01:10                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.61s           2026-05-02T17:01:12                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:01:37                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:01:11                       5
+================================================================================
+[2026-05-02T17:02:09.377+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.61s           2026-05-02T17:02:09                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:01:41                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.51s           2026-05-02T17:01:44                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:01:42                       5
+================================================================================
+[2026-05-02T17:02:41.777+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T17:02:13                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T17:02:41                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:02:16                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.11s           2026-05-02T17:02:14                       5
+================================================================================
+[2026-05-02T17:03:14.168+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T17:03:14                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:02:44                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:02:47                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:02:46                       5
+================================================================================
+[2026-05-02T17:03:20.907+0000] {manager.py:821} INFO - Searching for files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T17:03:20.909+0000] {manager.py:824} INFO - There are 4 files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T17:03:45.763+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T17:03:16                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:03:20                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:03:45                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:03:17                       5
+================================================================================
+[2026-05-02T17:04:17.644+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T17:03:48                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T17:04:17                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:03:51                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:03:49                       5
+================================================================================
+[2026-05-02T17:04:49.262+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T17:04:49                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.41s           2026-05-02T17:04:19                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:04:23                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:04:20                       5
+================================================================================
+[2026-05-02T17:05:20.805+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T17:05:20                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.51s           2026-05-02T17:04:55                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.41s           2026-05-02T17:04:51                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:04:52                       5
+================================================================================
+[2026-05-02T17:05:52.613+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.82s           2026-05-02T17:05:26                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:05:22                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:05:52                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:05:24                       5
+================================================================================
+[2026-05-02T17:06:24.516+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:05:54                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:05:59                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:06:24                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:05:55                       5
+================================================================================
+[2026-05-02T17:06:55.997+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:06:26                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:06:55                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:06:30                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:06:27                       5
+================================================================================
+[2026-05-02T17:07:28.080+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  2.01s           2026-05-02T17:07:28                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:06:57                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:07:02                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:06:58                       5
+================================================================================
+[2026-05-02T17:08:00.373+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  2.21s           2026-05-02T17:08:00                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  2.11s           2026-05-02T17:07:31                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.91s           2026-05-02T17:07:35                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:07:32                       5
+================================================================================
+[2026-05-02T17:08:21.044+0000] {manager.py:821} INFO - Searching for files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T17:08:21.045+0000] {manager.py:824} INFO - There are 4 files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T17:08:31.953+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.81s           2026-05-02T17:08:03                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T17:08:31                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:08:06                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:08:04                       5
+================================================================================
+[2026-05-02T17:09:03.421+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T17:08:35                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:08:38                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:09:03                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:08:36                       5
+================================================================================
+[2026-05-02T17:09:34.898+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T17:09:07                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:09:34                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:09:10                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:09:08                       5
+================================================================================
+[2026-05-02T17:10:06.365+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:09:38                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:10:06                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:09:41                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:09:40                       5
+================================================================================
+[2026-05-02T17:10:37.832+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.51s           2026-05-02T17:10:13                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:10:10                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:10:37                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:10:11                       5
+================================================================================
+[2026-05-02T17:11:09.312+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.51s           2026-05-02T17:10:45                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:10:42                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:11:09                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:10:43                       5
+================================================================================
+[2026-05-02T17:11:40.779+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:11:14                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:11:16                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:11:40                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.11s           2026-05-02T17:11:15                       5
+================================================================================
+[2026-05-02T17:12:12.328+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.51s           2026-05-02T17:11:45                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T17:12:12                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:11:48                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:11:46                       5
+================================================================================
+[2026-05-02T17:12:43.883+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T17:12:17                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.51s           2026-05-02T17:12:43                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:12:20                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:12:18                       5
+================================================================================
+[2026-05-02T17:13:15.363+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                           1           0  1.61s           2026-05-02T17:12:49                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                   1           0  1.41s           2026-05-02T17:13:15                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                 1           0  1.41s           2026-05-02T17:12:51                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                   0           1  0.10s           2026-05-02T17:12:50                       5
+================================================================================
+[2026-05-02T17:13:21.259+0000] {manager.py:821} INFO - Searching for files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T17:13:21.261+0000] {manager.py:824} INFO - There are 5 files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T17:13:22.293+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-05-02T17:13:22.293+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-05-02T17:13:22.511+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-05-02T17:17:57.596+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-05-02T17:17:57.597+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-05-02T17:17:57.597+0000] {manager.py:485} INFO - Checking for new files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags every 300 seconds
+[2026-05-02T17:17:57.598+0000] {manager.py:821} INFO - Searching for files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T17:17:57.599+0000] {manager.py:824} INFO - There are 5 files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T17:17:59.443+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.81s           2026-05-02T17:17:59                      43
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   0           0                                                            0
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           0                                                            0
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             0           0                                                            0
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     0           0                                                            0
+================================================================================
+[2026-05-02T17:18:31.207+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.71s           2026-05-02T17:18:31                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.71s           2026-05-02T17:18:04                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.51s           2026-05-02T17:18:02                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.51s           2026-05-02T17:18:07                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           1  0.10s           2026-05-02T17:18:05                       5
+================================================================================
+[2026-05-02T17:19:03.700+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.71s           2026-05-02T17:18:36                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.61s           2026-05-02T17:19:03                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.61s           2026-05-02T17:18:46                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.51s           2026-05-02T17:18:33                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           1  0.10s           2026-05-02T17:18:41                       5
+================================================================================
+[2026-05-02T17:19:36.275+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.61s           2026-05-02T17:19:08                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.61s           2026-05-02T17:19:36                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.61s           2026-05-02T17:19:06                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.51s           2026-05-02T17:19:18                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           1  0.11s           2026-05-02T17:19:11                       5
+================================================================================
+[2026-05-02T17:20:08.217+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.71s           2026-05-02T17:20:08                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.61s           2026-05-02T17:19:40                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.61s           2026-05-02T17:19:38                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.51s           2026-05-02T17:19:50                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           1  0.10s           2026-05-02T17:19:41                       5
+================================================================================
+[2026-05-02T17:20:39.955+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.71s           2026-05-02T17:20:39                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.61s           2026-05-02T17:20:12                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.51s           2026-05-02T17:20:09                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.51s           2026-05-02T17:20:22                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           1  0.10s           2026-05-02T17:20:13                       5
+================================================================================
+[2026-05-02T17:21:11.588+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.71s           2026-05-02T17:20:44                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.61s           2026-05-02T17:21:11                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.51s           2026-05-02T17:20:54                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.51s           2026-05-02T17:20:41                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           1  0.10s           2026-05-02T17:20:45                       5
+================================================================================
+[2026-05-02T17:21:43.330+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.71s           2026-05-02T17:21:16                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.61s           2026-05-02T17:21:43                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.61s           2026-05-02T17:21:26                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.51s           2026-05-02T17:21:13                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           1  0.10s           2026-05-02T17:21:17                       5
+================================================================================
+[2026-05-02T17:22:15.075+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.61s           2026-05-02T17:21:47                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.51s           2026-05-02T17:21:57                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.51s           2026-05-02T17:22:15                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.51s           2026-05-02T17:21:45                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           1  0.10s           2026-05-02T17:21:48                       5
+================================================================================
+[2026-05-02T17:22:46.716+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.51s           2026-05-02T17:22:19                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.51s           2026-05-02T17:22:16                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.51s           2026-05-02T17:22:46                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.41s           2026-05-02T17:22:29                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           1  0.10s           2026-05-02T17:22:20                       5
+================================================================================
+[2026-05-02T17:22:57.820+0000] {manager.py:821} INFO - Searching for files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T17:22:57.823+0000] {manager.py:824} INFO - There are 5 files in /home/ec2-user/environment/asynchronous_ai_inference_system/dags
+[2026-05-02T17:23:18.469+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.51s           2026-05-02T17:23:18                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.51s           2026-05-02T17:22:50                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.51s           2026-05-02T17:22:48                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.41s           2026-05-02T17:23:01                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           1  0.10s           2026-05-02T17:22:52                       5
+================================================================================
+[2026-05-02T17:23:50.848+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  2.22s           2026-05-02T17:23:50                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.51s           2026-05-02T17:23:32                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.51s           2026-05-02T17:23:22                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.41s           2026-05-02T17:23:20                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py                                     0           1  0.12s           2026-05-02T17:23:23                       5
+================================================================================
+[2026-05-02T17:23:54.328+0000] {manager.py:1291} WARNING - Skipping processing of missing file: /home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_pipeline_dag.py
+[2026-05-02T17:24:22.651+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.61s           2026-05-02T17:23:55                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.51s           2026-05-02T17:24:22                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.41s           2026-05-02T17:23:53                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.41s           2026-05-02T17:24:04                      10
+================================================================================
+[2026-05-02T17:24:54.588+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  2.01s           2026-05-02T17:24:28                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.51s           2026-05-02T17:24:54                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.41s           2026-05-02T17:24:24                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.41s           2026-05-02T17:24:36                      10
+================================================================================
+[2026-05-02T17:25:26.277+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.51s           2026-05-02T17:25:07                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.51s           2026-05-02T17:25:26                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.51s           2026-05-02T17:25:00                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.41s           2026-05-02T17:24:56                      10
+================================================================================
+[2026-05-02T17:25:57.856+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py                           1           0  1.51s           2026-05-02T17:25:57                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/ml_training_pipeline_v2.py                             1           0  1.51s           2026-05-02T17:25:32                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_model_dag.py                                     1           0  1.51s           2026-05-02T17:25:28                      10
+/home/ec2-user/environment/asynchronous_ai_inference_system/dags/generate_data_dag.py                                   1           0  1.41s           2026-05-02T17:25:39                      10
+================================================================================
+[2026-05-02T17:26:16.657+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

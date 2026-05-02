@@ -1,0 +1,123 @@
+[2026-05-02T17:13:21.284+0000] {processor.py:186} INFO - Started process (PID=15260) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:13:21.285+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:13:21.287+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:13:21.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:17:57.644+0000] {processor.py:186} INFO - Started process (PID=15765) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:17:57.645+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:17:57.646+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:17:57.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:17:59.208+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:17:59.292+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:17:59.291+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:train_breast_cancer_model
+[2026-05-02T17:17:59.304+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:17:59.303+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:train_breast_cancer_model
+[2026-05-02T17:17:59.314+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:17:59.314+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:train_breast_cancer_model
+[2026-05-02T17:17:59.333+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:17:59.332+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:train_breast_cancer_model
+[2026-05-02T17:17:59.351+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:17:59.351+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:train_breast_cancer_model
+[2026-05-02T17:17:59.361+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:17:59.360+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:train_breast_cancer_model
+[2026-05-02T17:17:59.370+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:17:59.369+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:train_breast_cancer_model
+[2026-05-02T17:17:59.371+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:17:59.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:17:59.380+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:17:59.380+0000] {dag.py:3262} INFO - Creating ORM DAG for train_breast_cancer_model
+[2026-05-02T17:17:59.381+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:17:59.381+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:17:59.398+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.759 seconds
+[2026-05-02T17:18:29.510+0000] {processor.py:186} INFO - Started process (PID=16021) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:18:29.511+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:18:29.512+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:18:29.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:18:31.087+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:18:31.102+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:18:31.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:18:31.111+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:18:31.111+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:18:31.129+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.623 seconds
+[2026-05-02T17:19:02.103+0000] {processor.py:186} INFO - Started process (PID=16301) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:19:02.104+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:19:02.105+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:02.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:19:03.576+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:19:03.589+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:03.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:19:03.598+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:03.598+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:19:03.617+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.518 seconds
+[2026-05-02T17:19:34.678+0000] {processor.py:186} INFO - Started process (PID=16516) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:19:34.679+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:19:34.680+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:34.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:19:36.143+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:19:36.157+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:36.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:19:36.166+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:19:36.166+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:19:36.183+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.510 seconds
+[2026-05-02T17:20:06.521+0000] {processor.py:186} INFO - Started process (PID=16780) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:20:06.522+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:20:06.523+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:06.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:20:08.109+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:20:08.128+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:08.127+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:20:08.137+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:08.137+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:20:08.157+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.641 seconds
+[2026-05-02T17:20:38.258+0000] {processor.py:186} INFO - Started process (PID=16987) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:20:38.259+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:20:38.260+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:38.259+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:20:39.872+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:20:39.887+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:39.886+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:20:39.896+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:20:39.896+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:20:39.914+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.661 seconds
+[2026-05-02T17:21:09.991+0000] {processor.py:186} INFO - Started process (PID=17223) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:21:09.992+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:21:09.993+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:09.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:21:11.475+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:21:11.490+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:11.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:21:11.499+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:11.498+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:21:11.517+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.530 seconds
+[2026-05-02T17:21:41.734+0000] {processor.py:186} INFO - Started process (PID=17422) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:21:41.734+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:21:41.735+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:41.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:21:43.239+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:21:43.252+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:43.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:21:43.261+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:21:43.261+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:21:43.279+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.550 seconds
+[2026-05-02T17:22:13.579+0000] {processor.py:186} INFO - Started process (PID=17678) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:22:13.579+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:22:13.580+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:13.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:22:14.953+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:22:14.966+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:14.966+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:22:14.975+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:14.975+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:22:14.994+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.420 seconds
+[2026-05-02T17:22:45.219+0000] {processor.py:186} INFO - Started process (PID=17873) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:22:45.221+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:22:45.222+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:45.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:22:46.593+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:22:46.607+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:46.607+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:22:46.617+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:22:46.617+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:22:46.636+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.422 seconds
+[2026-05-02T17:23:16.966+0000] {processor.py:186} INFO - Started process (PID=18080) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:23:16.967+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:23:16.968+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:16.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:23:18.351+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:23:18.365+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:18.365+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:23:18.376+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:18.376+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:23:18.446+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.485 seconds
+[2026-05-02T17:23:48.642+0000] {processor.py:186} INFO - Started process (PID=18283) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:23:48.643+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:23:48.644+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:48.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:23:50.790+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:23:50.804+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:50.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:23:50.813+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:23:50.813+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:23:50.830+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 2.196 seconds
+[2026-05-02T17:24:21.155+0000] {processor.py:186} INFO - Started process (PID=18587) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:24:21.157+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:24:21.158+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:21.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:24:22.558+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:24:22.572+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:22.571+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:24:22.581+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:22.581+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:24:22.604+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.453 seconds
+[2026-05-02T17:24:53.092+0000] {processor.py:186} INFO - Started process (PID=18791) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:24:53.092+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:24:53.093+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:53.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:24:54.454+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:24:54.467+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:54.467+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:24:54.478+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:24:54.478+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:24:54.495+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.409 seconds
+[2026-05-02T17:25:24.780+0000] {processor.py:186} INFO - Started process (PID=18998) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:25:24.782+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:25:24.783+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:25:24.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:25:26.158+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:25:26.173+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:25:26.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:25:26.183+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:25:26.182+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:25:26.201+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.425 seconds
+[2026-05-02T17:25:56.359+0000] {processor.py:186} INFO - Started process (PID=19192) to work on /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:25:56.361+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py for tasks to queue
+[2026-05-02T17:25:56.362+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:25:56.361+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:25:57.724+0000] {processor.py:925} INFO - DAG(s) 'train_breast_cancer_model' retrieved from /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py
+[2026-05-02T17:25:57.737+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:25:57.737+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-02T17:25:57.746+0000] {logging_mixin.py:190} INFO - [2026-05-02T17:25:57.746+0000] {dag.py:4180} INFO - Setting next_dagrun for train_breast_cancer_model to None, run_after=None
+[2026-05-02T17:25:57.768+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/asynchronous_ai_inference_system/dags/train_breast_cancer_model.py took 1.414 seconds
